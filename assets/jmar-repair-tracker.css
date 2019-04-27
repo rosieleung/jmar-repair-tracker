@@ -1,0 +1,33 @@
+form.jmar-repair-tracker input[name=vehiclereg] {
+	background: #f7f8fa;
+	font-size: 13px;
+	font-weight: 300;
+	color: #34343c;
+	border: 1px solid #ebeef6;
+	height: 40px;
+	padding: 6px 12px;
+	display: block;
+	width: 100%;
+}
+
+form.jmar-repair-tracker input[type=submit],
+form.jmar-repair-tracker input[type=submit]:focus,
+form.jmar-repair-tracker input[type=submit]:active {
+	font-size: 14px;
+	font-weight: 300;
+	padding: 9px 22px;
+	background: #000;
+	border-radius: 3px;
+	color: #fff !important;
+	margin: 20px 0;
+}
+
+form.jmar-repair-tracker input[type=submit]:hover {
+	background: #444;
+}
+
+form.jmar-repair-tracker input[type=submit].sending  {
+	background: #444 no-repeat 3px 0 url(spinner.svg);
+	padding-left: 35px;
+	cursor: default;
+}
